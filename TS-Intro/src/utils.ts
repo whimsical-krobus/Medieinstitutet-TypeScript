@@ -80,6 +80,9 @@ export const lessequal = (x: number, y: number): boolean => {
 /*================================== Assignment Operators ==================================*/
 
 // Arrow function to perform Addition Assignment (+=) calculation:
+export const addTo = (x: number, y: number): number => {
+  return x += y;
+}
 
 // Arrow function to perform Subtraction Assignment (-=) calculation:
 
