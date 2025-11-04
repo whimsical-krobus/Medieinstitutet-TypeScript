@@ -1,5 +1,5 @@
 import './style.css'
-import { add, addTo, decrement, divide, equal, eqvaluetype, exponent, greater, greaterequal, increment, less, lessequal, modulo, multiply, multiplyTo, notequal, noteqvaluetype, subFrom, subtract } from './utils';
+import { add, addTo, decrement, divide, divideAssign, equal, eqvaluetype, exponent, greater, greaterequal, increment, less, lessequal, modulo, multiply, multiplyTo, notequal, noteqvaluetype, subFrom, subtract } from './utils';
 
 /*================================== Arithmetic Operators ==================================*/
 /* Note that for every arithmetic operator the result vill be a number */
@@ -87,7 +87,8 @@ const ex = exponent(10, 3);
 console.log("By multiplying the value of the base: x to the value of the value of the exponent: y, we get:", ex);
 
 // Create a variable that uses divide and assign remainder to with arguments for x and y and display result in terminal:
-
+const divAss = divideAssign(2, 8);
+console.log("By dividing the value of x with the value of y, we get:", divAss);
 
 // Create a variable that uses a simple assign to with arguments for x and y and display result in terminal:
 
