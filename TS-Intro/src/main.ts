@@ -122,3 +122,7 @@ console.log(addStr);
 // Create a variable that uses the logical AND operation:
 const land = logicalAnd(2, 3, 7, 6);
 console.log("Is x is less than y, AND is a greater than b?",land);
+
+// Create a variable that uses the logical OR operation:
+
+// Create a variable that uses the logical NOT operation:
