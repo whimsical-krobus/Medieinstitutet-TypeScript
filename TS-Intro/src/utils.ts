@@ -73,6 +73,9 @@ export const greaterequal = (x: number, y: number): boolean => {
 }
 
 // Arrow function to perform less than or equal to (<=) calculation:
+export const lessequal = (x: number, y: number): boolean => {
+  return x <= y;
+}
 
 /*================================== Assignment Operators ==================================*/
 
