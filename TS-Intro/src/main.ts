@@ -1,5 +1,7 @@
+import { add, decrement, divide, increment, modulo, multiply, subtract } from './arithmetic';
 import './style.css'
-import { add, addTo, assign, decrement, divide, divideAssign, equal, eqvaluetype, exponent, greater, greaterequal, increment, less, lessequal, modulo, multiply, multiplyTo, notequal, noteqvaluetype, remainder, subFrom, subtract } from './utils';
+import { addTo, assign, divideAssign, equal, eqvaluetype, exponent, greater, greaterequal, less, lessequal, multiplyTo, notequal, noteqvaluetype, remainder, subFrom } from './utils';
+
 
 /*================================== Arithmetic Operators ==================================*/
 /* Note that for every arithmetic operator the result vill be a number */
