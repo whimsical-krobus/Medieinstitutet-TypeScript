@@ -1,5 +1,5 @@
 import './style.css'
-import { add, divide, greater, less, modulo, multiply, subtract } from './utils';
+import { add, divide, greater, increment, less, modulo, multiply, subtract } from './utils';
 
 /*================================== Arithmetic Operators ==================================*/
 
@@ -24,6 +24,8 @@ const mod = modulo(37, 2);
 console.log(mod);
 
 // Create a variable that uses increment with arguments for x and y and display result in terminal:
+const inc = increment(1);
+console.log(inc);
 
 // Create a variable that uses decrement with arguments for x and y and display result in terminal:
 
