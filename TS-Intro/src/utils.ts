@@ -90,6 +90,9 @@ export const subFrom = (x: number, y: number): number => {
 }
 
 // Arrow function to perform Multiplication Assignment (*=) calculation:
+export const multiplyTo = (x: number, y: number): number => {
+  return x *= y;
+}
 
 // Arrow function to perform Exponentiation Assignment (**=) calculation:
 
