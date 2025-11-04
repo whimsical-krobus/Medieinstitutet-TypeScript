@@ -113,18 +113,3 @@ export const remainder = (x: number, y: number): number => {
 export const assign = (x: number, y: number): number => {
   return x = y;
 }
-
-/*================================== String Assignment Operators ==================================*/
-
-// Arrow function to perform Simple Assignment string (=) operation:
-
-// Arrow function to perform Addition Assignment string (+=) concatenation:
-
-
-/*================================== Logical Operators ==================================*/
-
-// Arrow function to perform Logical AND (&&) operation:
-
-// Arrow function to perform Logical OR (||) operation:
-
-// Arrow function to perform Logical NOT (!) operation:
