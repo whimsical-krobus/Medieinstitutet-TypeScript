@@ -68,6 +68,9 @@ export const less = (x: number, y: number): boolean => {
 }
 
 // Arrow function to perform greater than or equal to (>=) calculation:
+export const greaterequal = (x: number, y: number): boolean => {
+  return x >= y;
+}
 
 // Arrow function to perform less than or equal to (<=) calculation:
 
