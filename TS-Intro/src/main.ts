@@ -1,5 +1,5 @@
 import './style.css'
-import { add, decrement, divide, equal, eqvaluetype, greater, greaterequal, increment, less, lessequal, modulo, multiply, notequal, noteqvaluetype, subtract } from './utils';
+import { add, addTo, decrement, divide, equal, eqvaluetype, greater, greaterequal, increment, less, lessequal, modulo, multiply, notequal, noteqvaluetype, subtract } from './utils';
 
 /*================================== Arithmetic Operators ==================================*/
 /* Note that for every arithmetic operator the result vill be a number */
@@ -68,4 +68,25 @@ const leq = lessequal(17, 8);
 console.log("The less than or equal to operation is:", leq);
 
 /*================================== Assignment Operators ==================================*/
+/* Note that for every arithmetic operator the result vill be a number */
+
+// Create a variable that uses add and assign to with arguments for x and y and display result in terminal:
+const at = addTo(5,2);
+console.log("By adding the value of x to the value of y, we get:", at);
+
+// Create a variable that uses subtract from and assign to with arguments for x and y and display result in terminal:
+
+
+// Create a variable that uses multiply and assign to with arguments for x and y and display result in terminal:
+
+
+// Create a variable that uses divide and assign to with arguments for x and y and display result in terminal:
+
+
+// Create a variable that uses divide and assign remainder to with arguments for x and y and display result in terminal:
+
+
+// Create a variable that uses a simple assign to with arguments for x and y and display result in terminal:
+
+
 /*================================== Logical Operators ==================================*/
