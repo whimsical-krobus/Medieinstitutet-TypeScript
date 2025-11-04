@@ -2,6 +2,7 @@ import { add, decrement, divide, increment, modulo, multiply, subtract } from '.
 import { equal, eqvaluetype, greater, greaterequal, less, lessequal, notequal, noteqvaluetype } from './utils/comparisons';
 import './style.css'
 import { addTo, divideAssign, exponent, multiplyTo, remainder, subFrom } from './utils/assignments';
+import { stringAssign } from './utils/strings';
 
 
 /*================================== Arithmetic Operators ==================================*/
@@ -106,6 +107,8 @@ console.log("Assign value of y to x:", as);
 /*================================== String Assignment Operators ==================================*/
 
 // Create a variable that uses simple assignment to assign a value to a string variable:
+const str = stringAssign("Hi", "Hello");
+console.log(str);
 
 // Create a variable that uses addition assignment to concatenate a value to another string:
 
