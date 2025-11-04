@@ -1,6 +1,8 @@
 import './style.css'
 import { add, divide, greater, less, modulo, multiply, subtract } from './utils';
 
+/*================================== Arithmetic Operators ==================================*/
+
 // Create a variable that uses add with arguments for x and y and display result in terminal:
 const a = add(5, 10);
 console.log(a);
@@ -21,6 +23,8 @@ console.log(d);
 const mod = modulo(37, 2);
 console.log(mod);
 
+/*================================== Comparison Operators ==================================*/
+
 // Create a variable that uses greater than with arguments for x and y and display result in terminal, note that the result vill be a boolean expression:
 const g = greater(5, 48);
 console.log(g);
@@ -28,3 +32,6 @@ console.log(g);
 // Create a variable that uses less than with arguments for x and y and display result in terminal, note that the result vill be a boolean expression:
 const l = less(10, 12);
 console.log(l);
+
+/*================================== Assignment Operators ==================================*/
+/*================================== Logical Operators ==================================*/
