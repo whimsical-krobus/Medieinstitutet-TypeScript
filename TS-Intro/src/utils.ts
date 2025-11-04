@@ -22,3 +22,8 @@ export const divide = (x: number, y: number): number => {
 export const modulo = (x: number, y: number): number => {
   return x % y;
 }
+
+// Arrow function to perform greater than calculation:
+export const greater = (x: number, y: number): boolean => {
+  return x > y;
+}
