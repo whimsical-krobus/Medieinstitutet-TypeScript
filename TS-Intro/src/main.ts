@@ -1,5 +1,5 @@
 import './style.css'
-import { add, divide, modulo, multiply, subtract } from './utils';
+import { add, divide, greater, modulo, multiply, subtract } from './utils';
 
 // Create a variable that uses add with arguments for x and y and display result in terminal:
 const a = add(5, 10);
@@ -20,3 +20,7 @@ console.log(d);
 // Create a variable that uses modulo with arguments for x and y (y must be always be 2 for mod to work, otherwise it will act as division) and display result in terminal:
 const mod = modulo(37, 2);
 console.log(mod);
+
+// Create a variable that uses greater than with arguments for x and y and display result in terminal, note that the result vill be a boolean expression:
+const g = greater(5, 48);
+console.log(g);
