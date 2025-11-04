@@ -26,6 +26,9 @@ export const modulo = (x: number, y: number): number => {
 }
 
 // Arrow function to perform Increment (++) calculation:
+export const increment = (x: number): number => {
+  return x++;
+}
 
 // Arrow function to perform Decrement (--) calculation:
 
