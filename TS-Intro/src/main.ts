@@ -105,6 +105,8 @@ console.log("Assign value of y to x:", as);
 */
 
 /*================================== String Assignment Operators ==================================*/
+/* Note that for every string assignment the result vill be a string, and as with all 
+assignment operators the result is the same as a normal string assignment/concatination would be */
 
 // Create a variable that uses simple assignment to assign a value to a string variable:
 const str = stringAssign("Hi", "Hello");

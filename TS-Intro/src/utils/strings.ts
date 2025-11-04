@@ -7,5 +7,5 @@ export const stringAssign = (x: string, y: string): string => {
 
 // Arrow function to perform Addition Assignment string (+=) concatenation:
 export const addStringAssign = (x: string, y: string): string => {
-    return x = y;
+    return x += y;
 }
