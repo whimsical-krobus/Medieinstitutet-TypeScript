@@ -1,7 +1,7 @@
-import { add, decrement, divide, increment, modulo, multiply, subtract } from './arithmetic';
+import { add, decrement, divide, increment, modulo, multiply, subtract } from './arithmetics';
 import { equal, eqvaluetype, greater, greaterequal, less, lessequal, notequal, noteqvaluetype } from './comparisons';
 import './style.css'
-import { addTo, assign, divideAssign, exponent, multiplyTo, remainder, subFrom } from './utils';
+import { addTo, assign, divideAssign, exponent, multiplyTo, remainder, subFrom } from './assignments';
 
 
 /*================================== Arithmetic Operators ==================================*/
