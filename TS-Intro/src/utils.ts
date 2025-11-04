@@ -100,6 +100,9 @@ export const exponent = (x: number, y: number): number => {
 }
 
 // Arrow function to perform Division Assignment (/=) calculation:
+export const divideAssign = (x: number, y: number): number => {
+  return x /= y;
+}
 
 // Arrow function to perform Remainder Assignment (%=) calculation:
 
