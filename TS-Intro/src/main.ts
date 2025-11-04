@@ -1,5 +1,5 @@
 import './style.css'
-import { add, addTo, decrement, divide, equal, eqvaluetype, greater, greaterequal, increment, less, lessequal, modulo, multiply, notequal, noteqvaluetype, subFrom, subtract } from './utils';
+import { add, addTo, decrement, divide, equal, eqvaluetype, greater, greaterequal, increment, less, lessequal, modulo, multiply, multiplyTo, notequal, noteqvaluetype, subFrom, subtract } from './utils';
 
 /*================================== Arithmetic Operators ==================================*/
 /* Note that for every arithmetic operator the result vill be a number */
@@ -79,7 +79,8 @@ const sf = subFrom(37, 20);
 console.log("By removing the value of y from the value of x, we get:", sf);
 
 // Create a variable that uses multiply and assign to with arguments for x and y and display result in terminal:
-
+const mt = multiplyTo(5, 2);
+console.log("By multiplying the value of y to the value of x, we get:", mt);
 
 // Create a variable that uses divide and assign to with arguments for x and y and display result in terminal:
 
