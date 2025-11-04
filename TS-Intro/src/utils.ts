@@ -5,3 +5,7 @@ export const add = (x: number, y: number): number => {
 export function subtract(x: number, y: number): number {
   return x - y;
 }
+
+export const multiply = (x: number, y: number): number => {
+  return x * y;
+}
