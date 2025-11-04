@@ -31,6 +31,9 @@ export const increment = (x: number): number => {
 }
 
 // Arrow function to perform Decrement (--) calculation:
+export const decrement = (x: number): number => {
+  return x--;
+}
 
 /*================================== Comparison Operators ==================================*/
 
