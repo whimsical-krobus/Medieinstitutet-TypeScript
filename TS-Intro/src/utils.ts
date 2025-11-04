@@ -85,6 +85,9 @@ export const addTo = (x: number, y: number): number => {
 }
 
 // Arrow function to perform Subtraction Assignment (-=) calculation:
+export const subFrom = (x: number, y: number): number => {
+  return x -= y;
+}
 
 // Arrow function to perform Multiplication Assignment (*=) calculation:
 
