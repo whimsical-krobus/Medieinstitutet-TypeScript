@@ -14,7 +14,7 @@ export const multiply = (x: number, y: number): number => {
 }
 
 // Arrow function to perform division calculation:
-export const division = (x: number, y: number): number => {
+export const divide = (x: number, y: number): number => {
   return x / y;
 }
 
