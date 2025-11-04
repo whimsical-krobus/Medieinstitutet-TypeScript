@@ -48,6 +48,9 @@ export const eqvaluetype = (x: number, y: number): boolean => {
 }
 
 // Arrow function to perform not equal to (!=) calculation: 
+export const notequal = (x:number, y:number): boolean => {
+  return x != y;
+}
 
 // Arrow function to perform not equal value or not equal type (!==) calculation: 
 
