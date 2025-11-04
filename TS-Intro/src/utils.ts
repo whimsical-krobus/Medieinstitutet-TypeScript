@@ -38,6 +38,9 @@ export const decrement = (x: number): number => {
 /*================================== Comparison Operators ==================================*/
 
 // Arrow function to perform equal to (==) calculation:
+export const equal = (x:number, y:number): boolean => {
+  return x == y;
+}
 
 // Arrow function to perform equal value and equal type (===) calculation: 
 
