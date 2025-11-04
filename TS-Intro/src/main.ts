@@ -86,10 +86,11 @@ console.log("By multiplying the value of y to the value of x, we get:", mt);
 const ex = exponent(10, 3);
 console.log("By multiplying the value of the base: x to the value of the value of the exponent: y, we get:", ex);
 
-// Create a variable that uses divide and assign remainder to with arguments for x and y and display result in terminal:
+// Create a variable that uses divide and assign to with arguments for x and y and display result in terminal:
 const divAss = divideAssign(2, 8);
 console.log("By dividing the value of x with the value of y, we get:", divAss);
 
+// Create a variable that uses divide and assign remainder to with arguments for x and y and display result in terminal:
 const rem = remainder(37, 2);
 console.log("The remainder of x divided by y is:", rem);
 
