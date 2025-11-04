@@ -1,5 +1,5 @@
 import './style.css'
-import { add, addTo, decrement, divide, divideAssign, equal, eqvaluetype, exponent, greater, greaterequal, increment, less, lessequal, modulo, multiply, multiplyTo, notequal, noteqvaluetype, remainder, subFrom, subtract } from './utils';
+import { add, addTo, assign, decrement, divide, divideAssign, equal, eqvaluetype, exponent, greater, greaterequal, increment, less, lessequal, modulo, multiply, multiplyTo, notequal, noteqvaluetype, remainder, subFrom, subtract } from './utils';
 
 /*================================== Arithmetic Operators ==================================*/
 /* Note that for every arithmetic operator the result vill be a number */
@@ -95,6 +95,7 @@ const rem = remainder(37, 2);
 console.log("The remainder of x divided by y is:", rem);
 
 // Create a variable that uses a simple assign to with arguments for x and y and display result in terminal:
-
+const as = assign(2,1);
+console.log("Assign value of y to x:", as);
 
 /*================================== Logical Operators ==================================*/
