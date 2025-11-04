@@ -1,5 +1,5 @@
 import './style.css'
-import { add, division, multiply, subtract } from './utils';
+import { add, division, modulo, multiply, subtract } from './utils';
 
 
 const a = add(5, 10);
@@ -13,3 +13,6 @@ console.log(m);
 
 const d = division(12, 3);
 console.log(d);
+
+const mod = modulo(37, 2);
+console.log(mod);
