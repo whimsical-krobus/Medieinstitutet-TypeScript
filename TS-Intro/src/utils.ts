@@ -110,6 +110,9 @@ export const remainder = (x: number, y: number): number => {
 }
 
 // Arrow function to perform Simple Assignment (=) calculation:
+export const assign = (x: number, y: number): number => {
+  return x = y;
+}
 
 /*================================== String Assignment Operators ==================================*/
 
