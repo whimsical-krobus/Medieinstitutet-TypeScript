@@ -3,6 +3,7 @@ import { equal, eqvaluetype, greater, greaterequal, less, lessequal, notequal, n
 import './style.css'
 import { addTo, divideAssign, exponent, multiplyTo, remainder, subFrom } from './utils/assignments';
 import { addStringAssign, stringAssign } from './utils/strings';
+import { logicalAnd } from './utils/logicals';
 
 
 /*================================== Arithmetic Operators ==================================*/
@@ -117,3 +118,7 @@ const addStr = addStringAssign("Hi", "Hello");
 console.log(addStr);
 
 /*================================== Logical Operators ==================================*/
+
+// Create a variable that uses the logical AND operation:
+const land = logicalAnd(2, 3, 7, 6);
+console.log("Is x is less than y, AND is a greater than b?",land);
