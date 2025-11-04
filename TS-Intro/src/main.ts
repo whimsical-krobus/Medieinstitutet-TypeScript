@@ -1,5 +1,5 @@
 import './style.css'
-import { add, decrement, divide, equal, eqvaluetype, greater, increment, less, modulo, multiply, notequal, noteqvaluetype, subtract } from './utils';
+import { add, decrement, divide, equal, eqvaluetype, greater, greaterequal, increment, less, modulo, multiply, notequal, noteqvaluetype, subtract } from './utils';
 
 /*================================== Arithmetic Operators ==================================*/
 /* Note that for every arithmetic operator the result vill be a number */
@@ -58,6 +58,10 @@ console.log("The greater than operation is:", g);
 // Create a variable that uses less than with arguments for x and y and display result in terminal, note that the result vill be a boolean expression:
 const l = less(10, 12);
 console.log("The less than operation is:", l);
+
+// Create a variable that uses greater than with arguments for x and y and display result in terminal, note that the result vill be a boolean expression:
+const geq = greaterequal(13, 13);
+console.log("The greater than or equal to operation is:", geq);
 
 /*================================== Assignment Operators ==================================*/
 /*================================== Logical Operators ==================================*/
