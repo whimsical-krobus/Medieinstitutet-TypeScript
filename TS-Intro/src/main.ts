@@ -1,5 +1,5 @@
 import './style.css'
-import { add, decrement, divide, equal, greater, increment, less, modulo, multiply, subtract } from './utils';
+import { add, decrement, divide, equal, eqvaluetype, greater, increment, less, modulo, multiply, subtract } from './utils';
 
 /*================================== Arithmetic Operators ==================================*/
 /* Note that for every arithmetic operator the result vill be a number */
@@ -35,9 +35,19 @@ console.log(dec);
 /*================================== Comparison Operators ==================================*/
 /* Note that for every comparison operator the result vill be a boolean expression */
 
-// Create a variable that uses equal to with arguments for x and y and display result in terminal, :
+// Create a variable that uses equal to with arguments for x and y and display result in terminal:
 const eq = equal(13, 7);
 console.log(eq);
+
+// Create a variable that uses equal value or equal type to with arguments for x and y and display result in terminal:
+const eqvalty = eqvaluetype(5,5);
+console.log(eqvalty); 
+
+// Create a variable that uses not equal to with arguments for x and y and display result in terminal:
+
+
+// Create a variable that uses not equal value or not equal type to with arguments for x and y and display result in terminal:
+
 
 // Create a variable that uses greater than with arguments for x and y and display result in terminal, note that the result vill be a boolean expression:
 const g = greater(5, 48);
