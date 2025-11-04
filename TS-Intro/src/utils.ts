@@ -53,6 +53,9 @@ export const notequal = (x:number, y:number): boolean => {
 }
 
 // Arrow function to perform not equal value or not equal type (!==) calculation: 
+export const noteqvaluetype = (x: number, y: number): boolean => {
+  return x !== y;
+}
 
 // Arrow function to perform greater than (>) calculation:
 export const greater = (x: number, y: number): boolean => {
