@@ -7,3 +7,5 @@ console.log(a);
 
 const s = subtract(30, 7);
 console.log(s);
+
+//const m = multiply(8, 5);
