@@ -7,6 +7,7 @@ import { logicalAnd, logicalNot, logicalOr } from './utils/logicals';
 
 
 /*================================== Arithmetic Operators ==================================*/
+
 /* Note that for every arithmetic operator the result vill be a number */
 
 // Create a variable that uses add with arguments for x and y and display result in terminal:
@@ -37,7 +38,9 @@ console.log("x incremented by 1 =", inc);
 const dec = decrement(57);
 console.log("x decremented by 1 =", dec);
 
+
 /*================================== Comparison Operators ==================================*/
+
 /* Note that for every comparison operator the result vill be a boolean expression */
 
 // Create a variable that uses equal to with arguments for x and y and display result in terminal:
@@ -72,7 +75,9 @@ console.log("The greater than or equal to operation is:", geq);
 const leq = lessequal(17, 8);
 console.log("The less than or equal to operation is:", leq);
 
+
 /*================================== Assignment Operators ==================================*/
+
 /* Note that for every arithmetic operator the result vill be a number */
 
 // Create a variable that uses add and assign to with arguments for x and y and display result in terminal:
@@ -99,15 +104,11 @@ console.log("By dividing the value of x with the value of y, we get:", divAss);
 const rem = remainder(37, 2);
 console.log("The remainder of x divided by y is:", rem);
 
-/*
-// Create a variable that uses a simple assign to with arguments for x and y and display result in terminal:
-const as = assign(2, 1);
-console.log("Assign value of y to x:", as);
-*/
 
 /*================================== String Assignment Operators ==================================*/
-/* Note that for every string assignment the result vill be a string, and as with all 
-assignment operators the result is the same as a normal string assignment/concatination would be */
+
+/* Note that for every string assignment the result vill be a string, and as with all
+ assignment operators the result is the same as a normal string assignment/concatination would be */
 
 // Create a variable that uses simple assignment to assign a value to a string variable:
 const str = stringAssign("Hi", "Hello");
@@ -117,7 +118,11 @@ console.log("Assign x to y:", str);
 const addStr = addStringAssign("Hi", "Hello");
 console.log("Concatinate x to y:", addStr);
 
+
 /*================================== Logical Operators ==================================*/
+
+/* Note that for the AND OR logical operator the result will be a boolean expression
+ comparing the two statements on each side of the operator to each other */
 
 // Create a variable that uses the logical AND operation:
 const land = logicalAnd(2, 3, 7, 6);
@@ -126,6 +131,8 @@ console.log("Is x is less than y, AND is a greater than b?", land);
 // Create a variable that uses the logical OR operation:
 const lor = logicalOr(11, 2, 10, 10);
 console.log("Is x is less than y, OR is a greater than b?", lor);
+
+/* Note that the logical NOT operator compares if the values are not the same */
 
 // Create a variable that uses the logical NOT operation:
 const lonot = logicalNot(5, 5);
