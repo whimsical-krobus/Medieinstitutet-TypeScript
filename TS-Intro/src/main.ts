@@ -3,7 +3,7 @@ import { equal, eqvaluetype, greater, greaterequal, less, lessequal, notequal, n
 import './style.css'
 import { addTo, divideAssign, exponent, multiplyTo, remainder, subFrom } from './utils/assignments';
 import { addStringAssign, stringAssign } from './utils/strings';
-import { logicalAnd, logicalOr } from './utils/logicals';
+import { logicalAnd, logicalNot, logicalOr } from './utils/logicals';
 
 
 /*================================== Arithmetic Operators ==================================*/
@@ -128,3 +128,5 @@ const lor = logicalOr(11, 2, 10, 10);
 console.log("Is x is less than y, OR is a greater than b?", lor);
 
 // Create a variable that uses the logical NOT operation:
+const lonot = logicalNot(5, 5);
+console.log("Is x NOT the same as y?",lonot);
