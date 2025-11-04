@@ -1,5 +1,5 @@
 import './style.css'
-import { add, decrement, divide, equal, eqvaluetype, greater, increment, less, modulo, multiply, notequal, subtract } from './utils';
+import { add, decrement, divide, equal, eqvaluetype, greater, increment, less, modulo, multiply, notequal, noteqvaluetype, subtract } from './utils';
 
 /*================================== Arithmetic Operators ==================================*/
 /* Note that for every arithmetic operator the result vill be a number */
@@ -48,7 +48,8 @@ const neq = notequal(47, 7);
 console.log("The NOT equal to operation is:", neq);
 
 // Create a variable that uses not equal value or not equal type to with arguments for x and y and display result in terminal:
-
+const noeqvalty = noteqvaluetype(5,6);
+console.log("The not equal value or not equal type operation is:", noeqvalty);
 
 // Create a variable that uses greater than with arguments for x and y and display result in terminal, note that the result vill be a boolean expression:
 const g = greater(5, 48);
