@@ -95,6 +95,9 @@ export const multiplyTo = (x: number, y: number): number => {
 }
 
 // Arrow function to perform Exponentiation Assignment (**=) calculation:
+export const exponent = (x: number, y: number): number => {
+  return x **= y;
+}
 
 // Arrow function to perform Division Assignment (/=) calculation:
 
