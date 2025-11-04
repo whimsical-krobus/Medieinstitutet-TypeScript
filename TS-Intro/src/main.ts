@@ -1,7 +1,7 @@
-import { add, decrement, divide, increment, modulo, multiply, subtract } from './arithmetics';
-import { equal, eqvaluetype, greater, greaterequal, less, lessequal, notequal, noteqvaluetype } from './comparisons';
+import { add, decrement, divide, increment, modulo, multiply, subtract } from './utils/arithmetics';
+import { equal, eqvaluetype, greater, greaterequal, less, lessequal, notequal, noteqvaluetype } from './utils/comparisons';
 import './style.css'
-import { addTo, assign, divideAssign, exponent, multiplyTo, remainder, subFrom } from './assignments';
+import { addTo, divideAssign, exponent, multiplyTo, remainder, subFrom } from './utils/assignments';
 
 
 /*================================== Arithmetic Operators ==================================*/
@@ -97,9 +97,11 @@ console.log("By dividing the value of x with the value of y, we get:", divAss);
 const rem = remainder(37, 2);
 console.log("The remainder of x divided by y is:", rem);
 
+/*
 // Create a variable that uses a simple assign to with arguments for x and y and display result in terminal:
 const as = assign(2, 1);
 console.log("Assign value of y to x:", as);
+*/
 
 /*================================== String Assignment Operators ==================================*/
 
