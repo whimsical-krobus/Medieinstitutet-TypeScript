@@ -98,4 +98,10 @@ console.log("The remainder of x divided by y is:", rem);
 const as = assign(2,1);
 console.log("Assign value of y to x:", as);
 
+/*================================== String Assignment Operators ==================================*/
+
+// Create a variable that uses simple assignment to assign a value to a string variable:
+
+// Create a variable that uses addition assignment to concatenate a value to another string:
+
 /*================================== Logical Operators ==================================*/
