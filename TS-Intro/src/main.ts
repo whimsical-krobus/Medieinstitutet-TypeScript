@@ -11,31 +11,31 @@ import { logicalAnd, logicalNot, logicalOr } from './utils/logicals';
 
 // Create a variable that uses add with arguments for x and y and display result in terminal:
 const a = add(5, 10);
-console.log(a);
+console.log("x + y =", a);
 
 // Create a variable that uses subtract with arguments for x and y and display result in terminal:
 const s = subtract(30, 7);
-console.log(s);
+console.log("x - y =", s);
 
 // Create a variable that uses multiply with arguments for x and y and display result in terminal:
 const m = multiply(8, 5);
-console.log(m);
+console.log("x * y =", m);
 
 // Create a variable that uses division with arguments for x and y and display result in terminal:
 const d = divide(12, 3);
-console.log(d);
+console.log("x / y =", d);
 
 // Create a variable that uses modulo with arguments for x and y (y must be always be 2 for mod to work, otherwise it will act as division) and display result in terminal:
 const mod = modulo(37, 2);
-console.log(mod);
+console.log("The remainder of x / y =", mod);
 
 // Create a variable that uses increment with arguments for x and y and display result in terminal:
 const inc = increment(5);
-console.log(inc);
+console.log("x incremented by 1 =", inc);
 
 // Create a variable that uses decrement with arguments for x and y and display result in terminal:
 const dec = decrement(57);
-console.log(dec);
+console.log("x decremented by 1 =", dec);
 
 /*================================== Comparison Operators ==================================*/
 /* Note that for every comparison operator the result vill be a boolean expression */
@@ -111,11 +111,11 @@ assignment operators the result is the same as a normal string assignment/concat
 
 // Create a variable that uses simple assignment to assign a value to a string variable:
 const str = stringAssign("Hi", "Hello");
-console.log(str);
+console.log("Assign x to y:", str);
 
 // Create a variable that uses addition assignment to concatenate a value to another string:
 const addStr = addStringAssign("Hi", "Hello");
-console.log(addStr);
+console.log("Concatinate x to y:", addStr);
 
 /*================================== Logical Operators ==================================*/
 
@@ -129,4 +129,4 @@ console.log("Is x is less than y, OR is a greater than b?", lor);
 
 // Create a variable that uses the logical NOT operation:
 const lonot = logicalNot(5, 5);
-console.log("Is x NOT the same as y?",lonot);
+console.log("Is x NOT the same as y?", lonot);
