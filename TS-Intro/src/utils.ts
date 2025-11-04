@@ -1,3 +1,5 @@
+/*================================== Arithmetic Operators ==================================*/
+
 // Arrow function to perform addition calculation:
 export const add = (x: number, y: number): number => {
     return x + y;
@@ -23,6 +25,8 @@ export const modulo = (x: number, y: number): number => {
   return x % y;
 }
 
+/*================================== Comparison Operators ==================================*/
+
 // Arrow function to perform greater than calculation:
 export const greater = (x: number, y: number): boolean => {
   return x > y;
@@ -32,3 +36,7 @@ export const greater = (x: number, y: number): boolean => {
 export const less = (x: number, y: number): boolean => {
   return x < y;
 }
+
+
+/*================================== Assignment Operators ==================================*/
+/*================================== Logical Operators ==================================*/
