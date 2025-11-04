@@ -23,6 +23,10 @@ console.log(d);
 const mod = modulo(37, 2);
 console.log(mod);
 
+// Create a variable that uses increment with arguments for x and y and display result in terminal:
+
+// Create a variable that uses decrement with arguments for x and y and display result in terminal:
+
 /*================================== Comparison Operators ==================================*/
 
 // Create a variable that uses greater than with arguments for x and y and display result in terminal, note that the result vill be a boolean expression:
