@@ -1,29 +1,33 @@
 /*================================== Arithmetic Operators ==================================*/
 
-// Arrow function to perform addition calculation:
+// Arrow function to perform Addition calculation:
 export const add = (x: number, y: number): number => {
     return x + y;
 }
 
-// Regular function to perform subtraction calculation:
+// Regular function to perform Subtraction calculation:
 export function subtract(x: number, y: number): number {
   return x - y;
 }
 
-// Arrow function to perform multiplication calculation:
+// Arrow function to perform Multiplication calculation:
 export const multiply = (x: number, y: number): number => {
   return x * y;
 }
 
-// Arrow function to perform division calculation:
+// Arrow function to perform Division calculation:
 export const divide = (x: number, y: number): number => {
   return x / y;
 }
 
-// Arrow function to perform modulus calculation:
+// Arrow function to perform Modulus calculation:
 export const modulo = (x: number, y: number): number => {
   return x % y;
 }
+
+// Arrow function to perform Increment calculation:
+
+// Arrow function to perform Decrement calculation:
 
 /*================================== Comparison Operators ==================================*/
 
