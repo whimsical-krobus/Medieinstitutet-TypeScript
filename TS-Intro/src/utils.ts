@@ -43,6 +43,9 @@ export const equal = (x:number, y:number): boolean => {
 }
 
 // Arrow function to perform equal value and equal type (===) calculation: 
+export const eqvaluetype = (x: number, y: number): boolean => {
+  return x === y;
+}
 
 // Arrow function to perform not equal to (!=) calculation: 
 
