@@ -1,5 +1,5 @@
 import './style.css'
-import { add, division, modulo, multiply, subtract } from './utils';
+import { add, divide, modulo, multiply, subtract } from './utils';
 
 // Create a variable that uses add with arguments for x and y and display result in terminal:
 const a = add(5, 10);
@@ -14,7 +14,7 @@ const m = multiply(8, 5);
 console.log(m);
 
 // Create a variable that uses division with arguments for x and y and display result in terminal:
-const d = division(12, 3);
+const d = divide(12, 3);
 console.log(d);
 
 // Create a variable that uses modulo with arguments for x and y (y must be always be 2 for mod to work, otherwise it will act as division) and display result in terminal:
