@@ -27,3 +27,8 @@ export const modulo = (x: number, y: number): number => {
 export const greater = (x: number, y: number): boolean => {
   return x > y;
 }
+
+// Arrow function to perform less than calculation:
+export const less = (x: number, y: number): boolean => {
+  return x < y;
+}
