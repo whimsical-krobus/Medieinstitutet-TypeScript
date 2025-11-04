@@ -11,3 +11,6 @@ export const logicalOr = (x: number, y: number, a: number, b: number): boolean =
 } 
 
 // Arrow function to perform Logical NOT (!) operation:
+export const logicalNot = (x: number, y: number): boolean => {
+    return !(x === y);
+} 
